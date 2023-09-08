@@ -1,0 +1,10 @@
+.loading-bar {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    z-index: 9999;
+  }
+  

@@ -1,0 +1,11 @@
+<app-header title="User Management"></app-header>
+<div *ngIf="searchedUser">
+  <a [routerLink]="['/user-details', searchedUser.id]"
+    >{{ searchedUser.first_name }} {{ searchedUser.last_name }}</a
+  >
+</div>
+<app-search-box (searchEvent)="searchById($event)"></app-search-box>
+<app-loading-indicator
+  [isLoading]="(isLoading$ | async) ?? false"
+></app-loading-indicator>
+<router-outlet></router-outlet>

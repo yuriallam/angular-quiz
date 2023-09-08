@@ -1,0 +1,24 @@
+/* General container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Header styles */
+  .app-header {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  

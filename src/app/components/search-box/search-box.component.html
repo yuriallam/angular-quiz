@@ -1,0 +1,23 @@
+<div class="search-container">
+  <input
+    [(ngModel)]="searchId"
+    (input)="instantSearch()"
+    placeholder="Search by ID"
+    class="search-input"
+  />
+</div>
+<div *ngIf="searchId" class="search-viewer">
+  <div *ngIf="searchedUser && searchCompleted" class="search-result">
+    <a [routerLink]="['/user-details', searchedUser.id]">
+      {{ searchedUser.first_name }} {{ searchedUser.last_name }}
+    </a>
+  </div>
+
+  <!-- Div to display "No users found" -->
+  <div
+    *ngIf="searchId && !searchedUser && searchCompleted"
+    class="no-users-found"
+  >
+    No users found
+  </div>
+</div>
