@@ -2,11 +2,11 @@
 
 ## Table of Contents
 
-### Introduction
+### •Introduction
 
-### Installation
+### •Installation
 
-### Usage
+### •Usage
 
 ### Introduction
 
