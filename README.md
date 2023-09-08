@@ -14,9 +14,9 @@ This project is a web application built using Angular. This README provides guid
 
 ### Installation
 
-Clone the repository: git clone https://github.com/your-username/your-project-name.git
+Clone the repository: git clone https://github.com/yuriallam/angular-quiz
 
-Navigate to the project directory: cd your-project-name
+Navigate to the project directory: cd angular-quiz
 
 Install dependencies: npm install
 
